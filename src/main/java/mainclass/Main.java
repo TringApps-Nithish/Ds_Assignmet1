@@ -1,7 +1,10 @@
-package org.example;
+package mainclass;
 
+import functions.Functions;
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    private static final Functions call = new Functions("",0,0);
+    public static void main(String[] args)
+    {
+        call.run();
     }
 }
